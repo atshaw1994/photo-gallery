@@ -4,7 +4,7 @@ This project was made to be merged into my Narratree blog site, allowing users t
 
 ## Screenshot
 
-<img src="Screenshot.png" width="500" height="300" alt="screenshot"/>
+![Screenshot](Screenshot.png)
 
 ## Getting Started
 
