@@ -39,6 +39,7 @@ This project was made to be merged into my [Narratree](https://github.com/atshaw
 
 - Upload photos using the green "Upload a New Photo" button.
 - Scroll available photos using the left or right arrows.
+- Press the "Delete Photo" button to remove a photo from the site.
 
 ## License
 
