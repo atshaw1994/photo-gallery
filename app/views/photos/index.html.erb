@@ -1,0 +1,23 @@
+<h1 class="main-title">Rails Photo Gallery</h1>
+
+<%= link_to "Upload a New Photo", new_photo_path, class: "upload-btn" %>
+
+<div id="carouselExampleControls" class="carousel slide">
+  <div class="carousel-inner">
+    <% @photos.each_with_index do |photo, index| %>
+      <div class="carousel-item <%= 'active' if index == 0 %>">
+        <% if photo.image.attached? %>
+          <%= image_tag photo.image, class: "d-block w-100 carousel-image" %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
