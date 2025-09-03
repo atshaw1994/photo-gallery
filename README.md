@@ -1,24 +1,45 @@
-# README
+# Photo Gallery
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was made to be merged into my Narratree blog site, allowing users to submit photos with their articles. It demonstrates using bootcamp components with a Ruby on Rails project.
 
-Things you may want to cover:
+## Screenshot
 
-* Ruby version
+<img src="Screenshot.png" width="500" height="300" alt="screenshot"/>
 
-* System dependencies
+## Getting Started
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby 3.x
+- Rails 8.x
+- SQLite3 (default) or another supported database
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/atshaw1994/photo-gallery.git
+   cd photo-gallery
+   ```
+2. Install dependencies:
+   ```sh
+   bundle install
+   ```
+3. Set up the database:
+   ```sh
+   bin/rails db:setup
+   ```
+4. Start the server:
+   ```sh
+   bin/rails server
+   ```
+5. Visit `http://localhost:3000` in your browser.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Usage
 
-* Deployment instructions
+- Upload photos using the green "Upload a New Photo" button.
+- Scroll available photos using the left or right arrows.
 
-* ...
+## License
+
+This project is licensed under the MIT License.
