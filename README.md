@@ -1,6 +1,6 @@
 # Photo Gallery
 
-This project was made to be merged into my Narratree blog site, allowing users to submit photos with their articles. It demonstrates using bootcamp components with a Ruby on Rails project.
+This project was made to be merged into my [Narratree](https://github.com/atshaw1994/Narratree) blog site, allowing users to submit photos with their articles. It demonstrates using bootcamp components with a Ruby on Rails project.
 
 ## Screenshot
 
